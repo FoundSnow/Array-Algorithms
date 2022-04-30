@@ -1,0 +1,4 @@
+Shell sort is basically a variation of insertion sort but used for a greater distance. It starts by taking a fixed number the width of the elements it’s comparing.
+It will compare pairs of numbers and switches and if the higher index number is less than the lower index number, however, if not the numbers won't change place. 
+It then goes to a new width or interval because it divides by 2 to the nearest integer.
+This will repeat until the interval only has a length of 1, then it will loop and the array will be sorted.
