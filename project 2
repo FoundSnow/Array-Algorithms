@@ -1,9 +1,0 @@
-  Bubble sort is pretty simple and easy to use.
-  It will start at zero and run through the entire array only switching elements when the one your on is bigger than the one next to it. 
-  This will find the largest element in the array and put it in the last spot. It does this for a while through a for loop.
-  It then starts at 0 again and repeats only doing the for loop where it will compare values since the last element is already in the right spot. 
-  once it gets back to the beginning the array is sorted and it stops.  
-	Binary search is done by taking an ordered array and finding the middle. 
-  It then checks if the middle value is correct and if it isn’t it will look to see if the needed value is bigger or smaller.
-  If it is smaller it will get a new middle. For example, it could go 30 which than would be 15 and from there 8. If it’s bigger it would find a new middle such as 
-  23. It will repeat this until it leads it to the desired value or runs out of options.
