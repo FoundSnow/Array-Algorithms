@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class insertion {
+    public int[] insertElement(int [] myArray){   // insert all the elements
+        int leng = myArray.length;
+        Scanner insert_input = new Scanner(System.in);
+        System.out.println("Insert Elements:");
+        for (int i = 0; i<leng;i++){
+            myArray[i] = insert_input.nextInt();
+
+        }
+        return myArray;
+    }
+}
+
+ public class Main {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter the size of the array that is to be created::");  // create array
+            int size = sc.nextInt();
+            int[] practice_arr = new int[size];
+
+            insertion new_insert = new insertion();
+            practice_arr = new_insert.insertElement(practice_arr);              // fill array
+
+            System.out.print("Your Array: ");
+
+            for (int i = 0; i < practice_arr.length; i++) {             // print array
+                System.out.print(practice_arr[i] + " ");
+
+            }
