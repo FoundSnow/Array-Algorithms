@@ -1,9 +1,0 @@
-Search- This algorithm is made to locate a number by looking in a linear way. When it finds the number it will bring it back even if there is multiple of the same number 
-it will just bring back what it located first.
-
-Insertion- A basic algorithm is insertion which simply fills an array set by the user and
-determines the array size. It then does a for loop equal to the array length. 
-The integer will then be put into whatever index corresponds to the for loop's current cycle. 
-
-Deletion- the user will put an interger and then it preforms a search of the array until its location is found. 
-Deletion just replaces it with the number to the right of it until the end of the array is found.
